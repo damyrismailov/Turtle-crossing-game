@@ -1,21 +1,21 @@
-# Turtle Crossing (Python, turtle)
+# Turtle Crossing Game
 
-**Goal:** Cross the road while cars speed up each level.  
-**Stack:** Python 3.x, `turtle`
+Frogger style road crossing game built with Python and turtle.
 
-## Features
-- Increasing difficulty (faster cars per level)
-- Collision detection and reset on crash
-- Level counter and win condition
+## Main features
 
-## Controls
-- **Up Arrow** to move forward (add more keys if needed)
+- Player controls a turtle that moves upward.
+- Cars move horizontally across the screen.
+- Each level the cars move faster.
+- Collision with a car ends the game and shows the level reached.
+
+## What I learned
+
+- Creating several classes that work together (player, car manager, scoreboard).
+- Managing many moving objects on the screen.
+- Increasing difficulty in small steps.
+- Implementing simple collision detection and game over logic.
 
 ## How to run
-```bash
-python main.py
 
-What I learned
-Spawning & managing many objects
-Speed scaling per level
-Separation into classes (Player/CarManager/Scoreboard)
+Open `main.py` in Python 3 and run the file. Use the Up arrow to move the turtle.
